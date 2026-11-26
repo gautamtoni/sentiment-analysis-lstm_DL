@@ -1,0 +1,40 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# TensorFlow / Keras temporary files
+*.h5
+*.tmp
+logs/
+checkpoints/
+
+# Model training temporary outputs
+runs/
+wandb/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Python packaging
+build/
+dist/
+*.egg-info/
